@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单练习</title>
+</head>
+<body>
+    <form action="http://www.baidu.com" method="post">
+        <!----method="get"是获取数据，post为向服务器传送数据-->
+        <!-----action为向何处发送表单数据-->
+        用户信息：<input type="text" placeholder="请输入用户名，注意大小写" name="username"><!----普通文本输入框，plcaeholder为提示信息-->
+<br>     <!----type还有button（单纯的按钮，常用，用css修改形式）和reset（清空）-->
+
+        密码：<input type="password" placeholder="请输入密码，注意大小写" name="password"><br>
+      <!--- <input type="submit"> --->    <!---submit提交信息到action指定的地址---->
+      <button type="submit">登录</button>
+      <button type="reset" value="想想你要输寄吧">重置</button>
+    </form>
+</body>
+</html>
